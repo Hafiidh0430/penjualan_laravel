@@ -12,7 +12,7 @@ class StokModel extends Model
 
     protected $table = 'stok';
     protected $primaryKey = 'id_stok';
-    protected $fillable = ['id_stok','id_barang','jumlah_barang'];
+    protected $fillable = ['id_barang','jumlah_barang'];
 
     public function stok():HasOne
     {

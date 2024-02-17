@@ -11,6 +11,6 @@ class BeliModel extends Model
 
     protected $table = 'beli';
     protected $primaryKey = 'id_beli';
-    protected $fillable = ['id_beli','id_barang','jumlah_beli','total','tanggal'];
+    protected $fillable = ['id_barang','jumlah_beli','total','tanggal', 'harga'];
 
 }

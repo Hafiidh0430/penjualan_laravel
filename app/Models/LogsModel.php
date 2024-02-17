@@ -11,7 +11,7 @@ class LogsModel extends Model
 
     protected $table = 'logs';
     protected $primaryKey = 'id_logs';
-    protected $fillable = ['id_logs','pesan','tanggal'];
+    protected $fillable = ['pesan','tanggal'];
 
 
 }

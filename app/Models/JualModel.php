@@ -11,5 +11,5 @@ class JualModel extends Model
 
     protected $table = 'jual';
     protected $primaryKey = 'id_jual';
-    protected $fillable = ['id_jual','id_barang','jumlah_jual','total','tanggal'];
+    protected $fillable = ['id_barang','jumlah_jual','total','tanggal', 'harga'];
 }
